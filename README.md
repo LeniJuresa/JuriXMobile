@@ -31,10 +31,10 @@ Aplikacija služi za kreiranje termina, nabavu dodatnih proizvoda, komunikacija 
 ### Podsjetnici 
 - Obavijesti o nadolazećem terminu
 - Obavijest pri kraju termina
----
-## Termin
+
+### Termin
 Aplikacija služi kao ključ za pristup autoCentru, 5 minuta prije početka termina kreira se QR/BAR kod pomoću kojega se ulazi u prostor skeniranjem na čitač na ulazu. 
 
-
+---
 
 
