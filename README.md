@@ -1,38 +1,40 @@
-# Quasar App (jurixapp)
+# Quasar App (JurixApp)
 
-## Install the dependencies
-
+## Članovi tima
 ```bash
-pnpm install
-# or: yarn/npm/bun install
+Leni Jureša
+Gabriel Ban
+Patrik Redžaj
 ```
 
-### Start the app in development mode (HMR, error reporting, etc.)
+# Tema
 
-```bash
-quasar dev
-```
+JuriX je AutoCentar za rad na automobilima, automehaniku, prodaju i edukaciju. 
+Ova aplikacije je glavna spojnica između klijenta i JuriX AutoCentra. 
+Aplikacija služi za kreiranje termina, nabavu dodatnih proizvoda, komunikacija s AutoCentrom, Kontaktiranje pomoći, prijava na evente i druge stvari.
 
-### Format & Lint the files
+## Funkcionalnosti
+### Kreiranje korisničkog računa
+- Ispuna osobnih podataka (ime, prezime, telefon, email...)
+- Spajanje vozačke dozvole za profil slikanjem ili skeniranjem 
+- Spajanje registracije vozila za profil slikanjem/skeniranjem prometne
 
-```bash
-pnpm run lint
-# or: yarn/npm/bun run lint
-```
+### Rezervacije
+- Izrada rezervacije.
+- Odabir vremenskog perioda
+- Odabir dodataka za rezervaciju (specijalizirani alat, dijagnostika, mentor...)
 
-...or just check formatting & linting:
+### Upravljanje rezervacijama
+- Uređivanje termina
+- Promjena vremenskog perioda
 
-```bash
-pnpm run lint:check
-# or: yarn/npm/bun run lint:check
-```
+### Podsjetnici 
+- Obavijesti o nadolazećem terminu
+- Obavijest pri kraju termina
+---
+## Termin
+Aplikacija služi kao ključ za pristup autoCentru, 5 minuta prije početka termina kreira se QR/BAR kod pomoću kojega se ulazi u prostor skeniranjem na čitač na ulazu. 
 
-### Build the app for production
 
-```bash
-quasar build
-```
 
-### Customize the configuration
 
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-file).
